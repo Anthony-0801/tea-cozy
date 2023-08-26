@@ -52,7 +52,7 @@ a:hover {
 }
 
 main {
-    background-image: url(img/img-mission-background.jpg);
+    background-image: url(../img/img-mission-background.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ figure>label{
 }
 
 .main-b {
-    background-image: url(img/img-locations-background.jpg);
+    background-image: url(../img/img-locations-background.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
