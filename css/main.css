@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+#logo {
+   height: 50px;
+   margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-height: 69px;
+    border-bottom: 1px solid white;
+    flex-flow: wrap;
+}
+
+
+li {
+    display: inline-flex;
+    text-decoration: underline;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+}
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+
+}
+
+main {
+    background-image: url(/img/img-mission-background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission {
+    background-color: rgb(5, 4, 4, 60%);
+    width: 1200px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.tea{
+    width: auto;
+    margin-top: 30px;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+}
+
+figure.container {
+    padding: 5px;
+}
+
+.feat-img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+figure>label{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-b {
+    background-image: url(/img/img-locations-background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#loc {
+    position: absolute;
+    top: 100px;
+
+}
+
+#location {
+    width: 300px;
+    background-color: rgb(5, 4, 4, 60%);
+    margin: 0 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer {
+    text-align: center;
+    line-height: 50px;
+    margin: 20px;
+}
+
+#cpy {
+    text-align: left;
+}
